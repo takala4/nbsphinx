@@ -119,6 +119,11 @@ except Exception:
 # -- Options for HTML output ----------------------------------------------
 
 html_title = project + ' version ' + release
+html_theme = 'scrolls'
+html_theme_options = {
+    #'body_max_width': None,
+    'navigation_with_keys': True,
+}
 
 # -- Options for LaTeX output ---------------------------------------------
 
