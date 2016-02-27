@@ -119,6 +119,24 @@ except Exception:
 # -- Options for HTML output ----------------------------------------------
 
 html_title = project + ' version ' + release
+html_theme = 'bizstyle'
+html_theme_options = {
+    #'nosidebar': True,
+    'body_min_width': 0,
+    #'body_max_width': None,
+    'navigation_with_keys': True,
+    #'rightsidebar': True,
+    #'maincolor': '#336699',
+}
+html_sidebars = {
+    '**': [
+        'globaltoc.html',
+        #'localtoc.html',
+        #'relations.html',
+        'sourcelink.html',
+        'searchbox.html',
+    ]
+}
 
 # -- Options for LaTeX output ---------------------------------------------
 
