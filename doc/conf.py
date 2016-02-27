@@ -119,6 +119,14 @@ except Exception:
 # -- Options for HTML output ----------------------------------------------
 
 html_title = project + ' version ' + release
+html_theme = 'traditional'
+html_theme_options = {
+    #'nosidebar': True,
+    #'sidebarwidth': 300,
+    #'body_min_width': 0,
+    #'body_max_width': 800,
+    'navigation_with_keys': True,
+}
 
 # -- Options for LaTeX output ---------------------------------------------
 
