@@ -35,6 +35,9 @@ nbsphinx_execute_arguments = [
 # Environment variables to be passed to the kernel:
 os.environ['MY_DUMMY_VARIABLE'] = 'Hello from conf.py!'
 
+# If True, the intermediate RST files are copied to the HTML output directory:
+#nbsphinx_save_rst = True
+
 # This is processed by Jinja2 and inserted before each notebook
 nbsphinx_prolog = r"""
 {% set docname = 'doc/' + env.doc2path(env.docname, base=None) %}
