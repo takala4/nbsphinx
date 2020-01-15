@@ -17,8 +17,8 @@ extensions = [
 # Default language for syntax highlighting in reST and Markdown cells:
 highlight_language = 'none'
 
-# Don't add .txt suffix to source files:
-html_sourcelink_suffix = ''
+# Don't copy source files, show links to Github repository instead
+html_copy_source = False
 
 # List of arguments to be passed to the kernel that executes the notebooks:
 nbsphinx_execute_arguments = [
@@ -119,6 +119,8 @@ except Exception:
 # -- Options for HTML output ----------------------------------------------
 
 html_title = project + ' version ' + release
+html_theme = 'insipid'
+html_add_permalinks = '\N{SECTION SIGN}'
 
 # -- Options for LaTeX output ---------------------------------------------
 
