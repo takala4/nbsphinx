@@ -119,6 +119,14 @@ except Exception:
 # -- Options for HTML output ----------------------------------------------
 
 html_title = project + ' version ' + release
+html_theme = 'sphinx_book_theme'
+html_theme_options = {
+    'repository_url': 'https://github.com/spatialaudio/nbsphinx',
+    'use_repository_button': True,
+    'use_issues_button': True,
+    'use_edit_page_button': True,
+    'path_to_docs': 'doc',
+}
 
 # -- Options for LaTeX output ---------------------------------------------
 
