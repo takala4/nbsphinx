@@ -2256,7 +2256,7 @@ def setup(app):
         {
             'inlineMath': [['$', '$'], ['\\(', '\\)']],
             'processEscapes': True,
-            'ignoreClass': 'document',
+#             'ignoreClass': 'document', #Comment out 
             'processClass': 'math|output_area',
         }
     )
